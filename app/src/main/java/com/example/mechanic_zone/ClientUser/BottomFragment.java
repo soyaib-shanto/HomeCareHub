@@ -36,7 +36,7 @@ public class BottomFragment extends BottomSheetDialogFragment {
     private String mParam2;
 
     public BottomFragment() {
-        // Required empty public constructor
+
     }
 
 
