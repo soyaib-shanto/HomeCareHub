@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".ClientUser.Name_Reset">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#A981A6A3"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/reset_name"
+            android:textColor="#0B0B0B"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/enter_old_passwordM"
+            android:textColor="#121111" />
+
+        <EditText
+            android:id="@+id/old_PassU_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000000"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="15dp"
+            android:paddingStart="10dp"
+            android:background="@drawable/edit_text_background"
+            android:drawableStart="@drawable/password_lock"
+
+            android:ems="10"
+            android:hint="@string/old_passwordM"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:textColorHint="#494444"
+            tools:ignore="RtlSymmetry"
+            android:autofillHints="" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/enter_new_name"
+            android:textColor="#101010" />
+
+        <EditText
+            android:id="@+id/new_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="15dp"
+            android:padding="10dp"
+            android:background="@drawable/edit_text_background"
+            android:textColor="#000000"
+            android:ems="10"
+            android:hint="@string/new_name"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textColorHint="#4A4747"
+            android:autofillHints="" />
+
+        <Button
+            android:id="@+id/saveName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="100dp"
+            android:text="@string/saveM" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

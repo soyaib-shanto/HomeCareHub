@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ClientUser.PartialSearch">
+
+    <EditText
+        android:id="@+id/searchEditText"
+        android:layout_width="match_parent"
+        android:height="48dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/search11"
+        android:autofillHints=""
+        tools:ignore="TextFields" />
+
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search12"
+        android:textColor="#E1BEE7"
+        android:textColorHighlight="#090909" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/searchResultsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/search_results_will_be_displayed_here12"
+            android:textColor="#000000"
+            android:textColorHighlight="#070707"
+            android:textColorLink="#050505"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </ScrollView>
+</LinearLayout>

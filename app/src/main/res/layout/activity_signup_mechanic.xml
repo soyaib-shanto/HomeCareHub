@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AEDAD6"
+    android:orientation="vertical"
+    tools:context=".ServiceProvider.SignupMechanic">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/LoginM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="130dp"
+            android:layout_marginLeft="152dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="152dp"
+            android:layout_marginRight="152dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/sign_up_here"
+            android:textColor="#070707"
+            android:textColorHighlight="#121111"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/NameM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:paddingStart="10dp"
+            android:background="@drawable/edit_text_background"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:textColor="#000000"
+            android:hint="@string/name_service_provider"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:autofillHints=""
+            tools:ignore="RtlSymmetry" />
+
+        <EditText
+            android:id="@+id/title_M"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#000000"
+            android:drawableStart="@drawable/ic_baseline_title_24"
+            android:background="@drawable/edit_text_background"
+            android:layout_marginTop="10dp"
+            android:paddingStart="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:hint="@string/title_service_provider"
+            tools:ignore="RtlSymmetry"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/email_M"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="#000000"
+            android:layout_marginRight="20dp"
+            android:paddingStart="10dp"
+            android:background="@drawable/edit_text_background"
+            android:drawableStart="@drawable/ic_baseline_email_24"
+            android:ems="10"
+            android:hint="@string/email_service_provider"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            tools:ignore="RtlSymmetry"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/phoneM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:textColor="#000000"
+            android:paddingStart="10dp"
+            android:inputType="phone"
+            android:drawableStart="@drawable/ic_baseline_phone_24"
+            android:background="@drawable/edit_text_background"
+            android:minHeight="48dp"
+            android:hint="@string/phone_service_provider"
+            tools:ignore="RtlSymmetry"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/password_M"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#000000"
+            android:paddingStart="10dp"
+            android:background="@drawable/edit_text_background"
+            android:drawableStart="@drawable/password_lock"
+            android:ems="10"
+            android:hint="@string/password_service_provider"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            tools:ignore="RtlSymmetry"
+            android:autofillHints="" />
+
+        <Button
+            android:id="@+id/signupbuttonM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="120dp"
+            android:layout_marginRight="120dp"
+            android:text="@string/sign_up"
+            android:textColor="#81D4FA" />
+
+        <TextView
+            android:id="@+id/switchTosignInn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="60dp"
+            android:text="@string/already_have_an_account_log_in_here"
+            android:textColor="#323131"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:id="@+id/progressbarM"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+</LinearLayout>

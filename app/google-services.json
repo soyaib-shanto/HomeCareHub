@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1041250809517",
+    "project_id": "mechanic-zone",
+    "storage_bucket": "mechanic-zone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041250809517:android:2284ffd7c723d98f9cb824",
+        "android_client_info": {
+          "package_name": "com.example.mechanic_zone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1041250809517-c526kcpp7gnj36cr96i1jjg6h7iojd7i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mechanic_zone",
+            "certificate_hash": "6131ef68dd6d9d57b7113559e630890cf2f9cbc4"
+          }
+        },
+        {
+          "client_id": "1041250809517-f05sbasodumk68kukgst0gtfnc4h38ao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBl8Q53WKyTuDIp6MI4E7XDKobOhyojgnk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1041250809517-f05sbasodumk68kukgst0gtfnc4h38ao.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
